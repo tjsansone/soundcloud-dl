@@ -19,29 +19,22 @@
   <div class="container d-flex flex-column text-light text-center">
     <div class="flex-grow-1"></div>
     <div class="jumbotron bg-transparent flex-grow-1">
-      <h1 class="display-4">youtube-dl</h1>
-      <p class="lead">Enter a video url to download the video to the server. Url can be to YouTube or <a class="text-info"
-          href="https://rg3.github.io/youtube-dl/supportedsites.html">any
-          other supported site</a>. The server will automatically download the highest quality version available.</p>
+      <h1 class="display-4">soundcloud-dl</h1>
+      <p class="lead">SoundCloud URL (Track, Playlist, User)</p>
       <hr class="my-4">
-      <div>
         <form action="/soundcloud-dl/q" method="POST">
           <div class="input-group">
             <input name="url" type="url" class="form-control" placeholder="URL" aria-label="URL" aria-describedby="button-submit" />
-            <div class="input-group-append">
-              <button class="btn btn-primary" type="submit" id="button-submit">Submit</button>
-            </div>
+            <button class="btn btn-primary" type="submit" id="button-submit">Submit</button>
           </div>
         </form>
-      </div>
     </div>
     <footer>
       <div>
         <p class="text-muted">Web frontend for <a class="text-light" href="https://github.io/sans-1/soundcloud-dl/">SoundCloud-DL</a></p>,
-
       </div>
     </footer>
-  </div>
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
